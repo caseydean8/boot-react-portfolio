@@ -36,7 +36,11 @@
     transform: rotate(360deg);
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
+body {
+  font-family: "Orbitron", sans-serif;
+}
 /* Navbar */
 
 /* logo font is orbitron */
@@ -45,4 +49,14 @@
 }
 
 /* nav links */
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+}
 
+nav ul li {
+  text-transform: uppercase;
+}
+/* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
