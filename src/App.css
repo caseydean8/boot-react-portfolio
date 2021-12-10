@@ -39,6 +39,7 @@
 
 :root {
   --primary-white: #fff;
+  --primary-orange: #ba6c47;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
@@ -71,10 +72,16 @@ nav ul li {
   margin-left: 00.75rem;
   /* add !important after var() to overide bootstrap */
   color: var(--primary-white);
+  border-top: 0.1875rem solid var(--primary-white);
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+
 }
