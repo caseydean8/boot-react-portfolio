@@ -36,6 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --primary-white: #fff;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 body {
@@ -50,8 +55,8 @@ body {
 
 /* nav links */
 nav a.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.0375rem;
+  /* font-weight: 500; */
+  /* letter-spacing: 0.0375rem; */
   cursor: pointer;
   font-family: "Orbitron", sans-serif;
 }
@@ -59,4 +64,17 @@ nav a.nav-link {
 nav ul li {
   text-transform: uppercase;
 }
+
 /* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 00.75rem;
+  /* add !important after var() to overide bootstrap */
+  color: var(--primary-white);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
