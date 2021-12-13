@@ -40,7 +40,7 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #ba6c47;
-  --primary-blue: #00B4E2;
+  --primary-blue: #00b4e2;
   --primary-grey: #6b6d72;
 }
 
@@ -96,11 +96,18 @@ nav ul li {
 .navbar-toggler {
   color: var(--primary-blue) !important;
   border-color: var(--primary-blue) !important;
-
 }
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 0.10rem !important;
+  box-shadow: 0 0 0 0.1rem !important;
 }
 
+/**************************** Header ***********************************/
+
+.header-wrapper {
+  position: relative;
+  background: url(winnebago.jpeg) no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
