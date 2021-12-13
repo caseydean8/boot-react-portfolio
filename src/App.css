@@ -40,6 +40,8 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #ba6c47;
+  --primary-blue: #00B4E2;
+  --primary-grey: #6b6d72;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
@@ -81,7 +83,24 @@ nav ul li {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/* These rules may make above rules redundant */
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-toggler {
+  color: var(--primary-blue) !important;
+  border-color: var(--primary-blue) !important;
 
 }
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.10rem !important;
+}
+
