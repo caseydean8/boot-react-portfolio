@@ -107,7 +107,66 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(winnebago.jpeg) no-repeat;
+  background: url(webDev1.jpg) no-repeat;
   background-size: cover;
   height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  /* text outline from https://stackoverflow.com/questions/4919076/outline-effect-to-text answer 5 + antialiased */
+  text-shadow:
+    -1px -1px 0 var(--primary-white),
+     0   -1px 0 var(--primary-white),
+     1px -1px 0 var(--primary-white),
+     1px  0   0 var(--primary-white),
+     1px  1px 0 var(--primary-white),
+     0    1px 0 var(--primary-white),
+    -1px  1px 0 var(--primary-white),
+    -1px  0   0 var(--primary-white);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* .outlined {
+  color: white;
+  text-shadow:
+    -1px -1px 0 var(--primary-white),
+     0   -1px 0 var(--primary-white),
+     1px -1px 0 var(--primary-white),
+     1px  0   0 var(--primary-white),
+     1px  1px 0 var(--primary-white),
+     0    1px 0 var(--primary-white),
+    -1px  1px 0 var(--primary-white),
+    -1px  0   0 var(--primary-white);
+} */
+
+
+
+/* ********************** SVG Experiment **************************** */
+svg{
+  /* font   : bold 70px Century Gothic, Arial; */
+  font-family: "Orbitron", sans-serif;
+  width  : 100%;
+  /* height : 120px; */
+}
+
+text{
+  fill            : var(--primary-orange);
+  /* stroke          : black; */
+  stroke: var(--primary-white);
+  stroke-width    : .5px;
+  stroke-linejoin : round;
+  /* animation       : 2s pulsate infinite; */
+}
+
+@keyframes pulsate {
+  50%{ stroke-width:5px }
 }
