@@ -122,7 +122,7 @@ nav ul li {
 
 .main-info h1 {
   color: var(--primary-orange);
-  /* text outline from https://stackoverflow.com/questions/4919076/outline-effect-to-text answer 5 + antialiased */
+  /* text outline from https://stackoverflow.com/questions/4919076/outline-effect-to-text answer 5 and added  -webkit-font-smoothing: antialiased;*/
   text-shadow:
     -1px -1px 0 var(--primary-white),
      0   -1px 0 var(--primary-white),
@@ -134,6 +134,8 @@ nav ul li {
     -1px  0   0 var(--primary-white);
     -webkit-font-smoothing: antialiased;
 }
+
+/* For integrated console use Ctrl+` */
 
 /* .outlined {
   color: white;
