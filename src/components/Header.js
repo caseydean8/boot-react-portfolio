@@ -11,10 +11,21 @@ const Header = () => {
         <text y="50">full stack web development</text>
         </svg> */}
         <Typed
+          
           className="typed-text"
-          strings={["full", "stack", "web", "development"]}
+          // strings={["react", "node","mongo", "sql", "JS","express", "C#"]}
+          strings={["react node mongo sql JS express C#"]}
+          startDelay={2000}
+          typeSpeed={100}
+          // backSpeed={60}
+          // backDelay={800}
+          // cursorChar={}
+          showCursor={false}
+          // loop
+          fadeOut={true}
         />
       </div>
+      
     </div>
   );
 };
