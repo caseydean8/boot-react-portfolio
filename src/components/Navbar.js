@@ -1,6 +1,11 @@
 import React from "react";
 import logo from "../logo3.png";
-import { Link } from "react-router-dom";
+
+import {
+  //moved Outlet to App.js
+  // Outlet,
+  Link,
+} from "react-router-dom";
 // clean up: shift+option f
 // React fontawesome import
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

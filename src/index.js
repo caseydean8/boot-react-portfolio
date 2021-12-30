@@ -13,10 +13,11 @@ render(
   <BrowserRouter>
     <Routes>
       {/* yyp to duplicate line in vim normal mode*/}
-      <Route path="/" element={<App />} />
-      <Route path="home" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="portfolio" element={<Portfolio />} />
+      <Route path="/" element={<App />}>
+        <Route path="home" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="portfolio" element={<Portfolio />} />
+      </Route>
     </Routes>
   </BrowserRouter>,
   rootElement
