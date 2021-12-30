@@ -7,13 +7,9 @@ const Header = () => {
     <div className="header-wrapper">
       <div className="main-info">
         <h1>full stack web development</h1>
-        {/* <svg viewBox="0 0 450 50">
-        <text y="50">full stack web development</text>
-        </svg> */}
+
         <Typed
-          
           className="typed-text"
-          // strings={["react", "node","mongo", "sql", "JS","express", "C#"]}
           strings={["react node mongo sql JS express C#"]}
           startDelay={2000}
           typeSpeed={100}
@@ -22,10 +18,9 @@ const Header = () => {
           // cursorChar={}
           showCursor={false}
           // loop
-          fadeOut={true}
+          // fadeOut={true}
         />
       </div>
-      
     </div>
   );
 };

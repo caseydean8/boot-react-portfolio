@@ -1,19 +1,19 @@
 import React from "react";
 import logo from "../logo3.png";
+import { Link } from "react-router-dom";
 // clean up: shift+option f
 // React fontawesome import
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       .
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="">
           <img src={logo} className="logo" alt="logo" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -30,14 +30,14 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/home">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/about">
                 About me
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item dropdown">
               <a
@@ -65,9 +65,9 @@ const Navbar = () => {
               </div>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="portfolio">
                 Portfolio
-              </a>
+              </Link>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">

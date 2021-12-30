@@ -44,7 +44,11 @@
   --primary-grey: #6b6d72;
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap"); */
+/* font note: below link in html will load font faster- see https://stackoverflow.com/questions/12316501/including-google-fonts-link-or-import */
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap" rel="stylesheet"> */
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap");
 
@@ -105,7 +109,7 @@ nav ul li {
   box-shadow: 0 0 0 0.1rem;
 }
 
-/**************************** Header ***********************************/
+/************** Header *****************/
 
 .header-wrapper {
   position: relative;
@@ -119,12 +123,12 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Orbitron", sans-serif;
 }
 
 .main-info h1 {
   color: var(--primary-orange);
   /* text outline from https://stackoverflow.com/questions/4919076/outline-effect-to-text answer 5 and added  -webkit-font-smoothing: antialiased;*/
+  font-family: "Orbitron", sans-serif;
   text-shadow: -1px -1px 0 var(--primary-white), 0 -1px 0 var(--primary-white),
     1px -1px 0 var(--primary-white), 1px 0 0 var(--primary-white),
     1px 1px 0 var(--primary-white), 0 1px 0 var(--primary-white),
@@ -134,20 +138,34 @@ nav ul li {
 
 /* For integrated console use Ctrl+` */
 
-/* .outlined {
-  color: white;
-  text-shadow:
-    -1px -1px 0 var(--primary-white),
-     0   -1px 0 var(--primary-white),
-     1px -1px 0 var(--primary-white),
-     1px  0   0 var(--primary-white),
-     1px  1px 0 var(--primary-white),
-     0    1px 0 var(--primary-white),
-    -1px  1px 0 var(--primary-white),
-    -1px  0   0 var(--primary-white);
+/* ********** typed text ************** */
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+  font-family: "Inconsolata", monospace;
+}
+
+/* remove below particle and svg experiments */
+/* .tsparticles-canvas-el {
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+  background: #222
 } */
 
-/* ********************** SVG Experiment **************************** */
+/* #tsparticles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+} */
+
+/* ***********SVG Experiment *************** */
 svg {
   /* font   : bold 70px Century Gothic, Arial; */
   font-family: "Orbitron", sans-serif;
@@ -168,32 +186,4 @@ text {
   50% {
     stroke-width: 5px;
   }
-}
-
-/* **************************** typed text **************************** */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100&display=swap'); */
-
-.typed-text {
-  font-size: 2rem;
-  color: var(--primary-white);
-  font-family: "Inconsolata", monospace; /* -webkit-font-smoothing: antialiased; */
-}
-
-/* .tsparticles-canvas-el {
-  position: fixed;
-  height: 100vh;
-  width: 100vh;
-  z-index: 1;
-  background: #222
-} */
-
-#tsparticles {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0;
 }
