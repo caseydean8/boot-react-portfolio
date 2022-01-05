@@ -204,3 +204,15 @@ text {
   overflow: hidden;
   position: fixed;
 }
+
+/* CAROUSEL */
+
+.carousel {
+ max-height: 43.75rem;
+ overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
