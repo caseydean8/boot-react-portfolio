@@ -3,15 +3,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import Particles from "react-tsparticles";
 // import particlesOptions from "./particles.json";
 import { Outlet } from "react-router-dom";
+// "Outlet" renders childs route element
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Main from "./components/Main";
+// import Home from "./routes/home";
+
 
 function App() {
   return (
     <div>
       <Navbar />
       <Outlet />
-      <Header />
+      <Main />
+      {/* <Home /> */}
     </div>
   );
 }

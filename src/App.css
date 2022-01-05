@@ -75,6 +75,7 @@ nav ul li {
 }
 
 /* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
+
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 00.75rem;
@@ -111,7 +112,8 @@ nav ul li {
 
 /************** Header *****************/
 
-.header-wrapper {
+.Main-wrapper {
+  /* margin-top: 5rem; */
   position: relative;
   background: url(webDev1.jpg) no-repeat;
   background-size: cover;
@@ -186,4 +188,19 @@ text {
   50% {
     stroke-width: 5px;
   }
+}
+
+/* ********* Layout component*********** */
+.Container {
+  /* Flexbox */
+  display: flex;
+  flex-direction: column;
+
+  /* Width & Height */
+  width: 100%;
+  height: 100%;
+
+  /* Misc */
+  overflow: hidden;
+  position: fixed;
 }

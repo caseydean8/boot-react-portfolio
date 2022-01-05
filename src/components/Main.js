@@ -2,9 +2,9 @@
 import React from "react";
 import Typed from "react-typed";
 
-const Header = () => {
+const Main = () => {
   return (
-    <div className="header-wrapper">
+    <div className="Main-wrapper">
       <div className="main-info">
         <h1>full stack web development</h1>
 
@@ -25,7 +25,7 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Main;
 
 /* <svg viewBox="0 0 450 50">
   <text y="50">Scalable Title</text>

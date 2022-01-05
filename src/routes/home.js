@@ -1,7 +1,15 @@
-export default function Home() {
+import React from "react";
+import Layout from "../components/Layout";
+import Navbar from "../components/Navbar";
+import Main from "../components/Main";
+
+const Home = () => {
   return (
-    <main style={{ padding: "1rem 0" }}>
-      <h2>Home</h2>
-    </main>
-  );
+    <Layout 
+    header={<Navbar />}
+    main={<Main />}
+    />
+  )
 }
+
+export default Home;
