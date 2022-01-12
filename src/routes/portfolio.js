@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import Layout from "../components/Layout";
-import Main from "../components/Main";
+// import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 
 const Portfolio = () => {
@@ -15,11 +15,15 @@ const Portfolio = () => {
           className="carousel slide"
           data-ride="carousel"
         >
-          {/* <ol className="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol> */}
+          <ol className="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              className="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
@@ -27,6 +31,10 @@ const Portfolio = () => {
                 src="images/ahoy.jpg"
                 alt="First slide"
               ></img>
+              <div class="carousel-caption">
+                <h5>Ahoy</h5>
+                <p>...</p>
+              </div>
             </div>
             <div className="carousel-item">
               <img
@@ -34,6 +42,10 @@ const Portfolio = () => {
                 src="images/hippies.jpg"
                 alt="Second slide"
               ></img>
+              <div class="carousel-caption">
+                <h5>Crystal Persuasion</h5>
+                <p>...</p>
+              </div>
             </div>
             <div className="carousel-item">
               <img
@@ -41,6 +53,10 @@ const Portfolio = () => {
                 src="images/Submarine.png"
                 alt="Third slide"
               ></img>
+              <div class="carousel-caption">
+                <h5>Submarine</h5>
+                <p>...</p>
+              </div>
             </div>
           </div>
           <a
