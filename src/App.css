@@ -43,13 +43,6 @@
 
 /* For integrated console use Ctrl+` */
 
-/* ********** typed text ************** */
-
-.typed-text {
-  /* font-size: 2rem; */
-  color: var(--primary-blue);
-  /* font-family: "Inconsolata", monospace; */
-}
 
 /* remove below particle and svg experiments */
 /* .tsparticles-canvas-el {

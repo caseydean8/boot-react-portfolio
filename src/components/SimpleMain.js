@@ -1,11 +1,12 @@
 // shortcut rafce
 import React from "react";
 import Typed from "react-typed";
+import "./SimpleMain.css";
 
 const SimpleMain = () => {
   return (
     <div className="simple-main-wrapper container">
-      <h1>
+      <h1 className="heading">
         Hello{" "}
         <Typed
           className="typed-text"
@@ -20,7 +21,7 @@ const SimpleMain = () => {
           // fadeOut={true}
         />
       </h1>
-      <h5>
+      <h5 className="subheading">
         Welcome to the folio of Casey Dean Carroll, Full Stack Web Developer
       </h5>
     </div>

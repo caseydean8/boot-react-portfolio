@@ -18,7 +18,7 @@ const Navbar = () => {
         </h1>
         {/* <h2>Full Stack Web Development</h2> */}
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"

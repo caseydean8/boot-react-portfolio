@@ -1,0 +1,11 @@
+.typed-text {
+  color: var(--primary-blue);
+}
+
+.heading {
+  font-weight: 600;
+}
+
+.subheading {
+  /* font-weight: 300; */
+}
