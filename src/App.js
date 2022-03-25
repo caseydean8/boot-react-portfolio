@@ -1,3 +1,4 @@
+import "./components/font.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import Particles from "react-tsparticles";
@@ -5,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Outlet } from "react-router-dom";
 // "Outlet" renders childs route element
 import Navbar from "./components/Navbar";
+import SimpleMain from "./components/SimpleMain";
 import Main from "./components/Main";
 // import Home from "./routes/home";
 
@@ -14,7 +16,8 @@ function App() {
     <div>
       <Navbar />
       {/* <Outlet /> */}
-      <Main />
+<SimpleMain />
+      {/* <Main /> */}
       {/* <Home /> */}
     </div>
   );

@@ -1,42 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 :root {
   --primary-white: #fff;
   --primary-orange: #ba6c47;
@@ -51,64 +12,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap" rel="stylesheet"> */
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap");
-
-body {
-  font-family: "Orbitron", sans-serif;
-}
-/* Navbar */
-
-/* logo font is orbitron */
-.logo {
-  width: 16.25rem;
-}
-
-/* nav links */
-nav a.nav-link {
-  /* font-weight: 500; */
-  /* letter-spacing: 0.0375rem; */
-  cursor: pointer;
-  font-family: "Orbitron", sans-serif;
-}
-
-nav ul li {
-  text-transform: uppercase;
-}
-
-/* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
-
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 00.75rem;
-  /* add  after var() to overide bootstrap */
-  color: var(--primary-white);
-  border-top: 0.1875rem solid var(--primary-white);
-}
-
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0;
-  height: 6rem;
-}
-
-.navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
-
-/* These rules may make above rules redundant */
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
-
-.navbar-toggler {
-  color: var(--primary-blue);
-  border-color: var(--primary-blue);
-}
-.navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.1rem;
-}
 
 /************** Header *****************/
 
@@ -143,9 +46,9 @@ nav ul li {
 /* ********** typed text ************** */
 
 .typed-text {
-  font-size: 2rem;
-  color: var(--primary-white);
-  font-family: "Inconsolata", monospace;
+  /* font-size: 2rem; */
+  color: var(--primary-blue);
+  /* font-family: "Inconsolata", monospace; */
 }
 
 /* remove below particle and svg experiments */

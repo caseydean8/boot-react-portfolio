@@ -86,10 +86,6 @@ const Portfolio = () => {
         </div>
       }
     />
-    // <Layout
-    // header={<Navbar />}
-    // main={<h1>Portfolio</h1>}
-    // />
   );
 };
 

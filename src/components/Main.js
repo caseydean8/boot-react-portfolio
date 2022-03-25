@@ -16,7 +16,7 @@ const Main = () => {
           // backSpeed={60}
           // backDelay={800}
           // cursorChar={}
-          showCursor={false}
+          showCursor={true}
           // loop
           // fadeOut={true}
         />
