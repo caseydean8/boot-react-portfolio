@@ -1,9 +1,19 @@
 import React from "react";
 
-const Project = (props) => {
-  <div className="project">
-    <img className="project-img" src={props.src} alt={props.alt}></img>
-  </div>;
-};
+function Project(props) {
+  return (
+    <div id={props.id} className="project">
+      <a href={props.link}>
+        <img
+          className="project-image"
+          src={props.image}
+          alt={props.alt}
+          width=""
+          height=""
+        />
+      </a>
+    </div>
+  );
+}
 
 export default Project;

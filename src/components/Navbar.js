@@ -13,9 +13,9 @@ const Navbar = () => {
         {/* <Link className="navbar-brand" to="">
           <img src={logo} className="logo" alt="logo" />
         </Link> */}
-        <h1 id="cdc">
-          Casey Dean <br></br>Carroll
-        </h1>
+        <h2 id="cdc">
+          Casey Dean Carroll
+        </h2>
         {/* <h2>Full Stack Web Development</h2> */}
         <button
           className="navbar-toggler collapsed"
@@ -26,7 +26,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span></span>
           <span></span>
           <span></span>
         </button>

@@ -5,7 +5,7 @@ import "./SimpleMain.css";
 
 const SimpleMain = () => {
   return (
-    <div className="simple-main-wrapper container">
+    <div className="simple-main-wrapper">
       <h1 className="heading">
         Hello{" "}
         <Typed
