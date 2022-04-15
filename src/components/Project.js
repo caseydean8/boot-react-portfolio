@@ -1,4 +1,5 @@
 import React from "react";
+import "./Project.css";
 
 function Project(props) {
   return (
@@ -8,8 +9,8 @@ function Project(props) {
           className="project-image"
           src={props.image}
           alt={props.alt}
-          width=""
-          height=""
+          width={props.width}
+          height={props.height}
         />
       </a>
     </div>

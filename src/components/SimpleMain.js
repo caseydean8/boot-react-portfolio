@@ -10,11 +10,11 @@ const SimpleMain = () => {
         Hello{" "}
         <Typed
           className="typed-text"
-          strings={["React", "Node", "Mongo", "SQL", "Express"]}
+          strings={["React.", "Node.", "Mongo.", "SQL.", "Express."]}
           // startDelay={3000}
           typeSpeed={100}
           backSpeed={60}
-          backDelay={2500}
+          backDelay={2100}
           // cursorChar={}
           showCursor={false}
           loop
@@ -22,7 +22,7 @@ const SimpleMain = () => {
         />
       </h1>
       <h5 className="subheading">
-        Welcome to the folio of Casey Dean Carroll, Full Stack Web Developer
+        Welcome to the Portfolio of Casey Dean Carroll, Full Stack Web Developer
       </h5>
     </div>
   );
