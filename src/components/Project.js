@@ -3,7 +3,7 @@ import "./Project.css";
 
 function Project(props) {
   return (
-    <div id={props.id} className="project">
+    <div id={props.id} className="project col-md-6 col-lg-4 p-0">
       <a href={props.link}>
         <img
           className="project-image"

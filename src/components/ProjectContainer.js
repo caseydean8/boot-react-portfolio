@@ -4,16 +4,21 @@ import "./ProjectContainer.css";
 import data from "../data.js";
 
 const ProjectContainer = () => {
-  console.log(data[0]);
+  console.log(data);
   return (
-    <div className="project-container">
-      <Project
-        id={data[0].id}
-        image={data[0].image}
-        link={data[0].link}
-        width={data[0].width}
-        height={data[0].height}
-      />
+    <div className="project-container row">
+      {data.map((item, index) => {
+        return (
+          <Project
+            key={index}
+            id={item.id}
+            image={item.image}
+            link={item.link}
+            width={item.width}
+            height={item.height}
+          />
+        );
+      })}
     </div>
   );
 };

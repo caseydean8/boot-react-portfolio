@@ -14,7 +14,7 @@ import ProjectContainer from "./components/ProjectContainer";
 function App() {
   return (
     // container-fluid p-0 will remove gutters 
-    <div className="container">
+    <div className="container-fluid">
       <Navbar />
       <SimpleMain />
       <ProjectContainer />
