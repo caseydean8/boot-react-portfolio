@@ -1,5 +1,5 @@
 import Submarine from "./images/submarine-800x450.png";
-import ShoppingApp from "./images/shopify-800x450.png"
+import ShoppingApp from "./images/shopify-800x450.png";
 
 const data = [
   {
@@ -8,48 +8,55 @@ const data = [
     link: "https://blooming-peak-13476.herokuapp.com/",
     width: "800",
     height: "450",
+    github: "",
   },
   {
-    id:"shopping-app",
+    id: "shopping-app",
     image: ShoppingApp,
-    link: "",
+    link: "https://rocky-mesa-95810.herokuapp.com/",
     width: "800",
     height: "450",
+    github: "https://github.com/caseydean8/shopity-app",
   },
   {
-    id:"",
+    id: "",
     image: "",
     link: "",
     width: "",
     height: "",
+    github: "",
   },
   {
-    id:"",
+    id: "",
     image: "",
     link: "",
     width: "",
     height: "",
+    github: "",
   },
   {
-    id:"",
+    id: "",
     image: "",
     link: "",
     width: "",
     height: "",
+    github: "",
   },
   {
-    id:"",
+    id: "",
     image: "",
     link: "",
     width: "",
     height: "",
+    github: "",
   },
   {
-    id:"",
+    id: "",
     image: "",
     link: "",
     width: "",
     height: "",
+    github: "",
   },
 ];
 

@@ -16,6 +16,7 @@ const ProjectContainer = () => {
             link={item.link}
             width={item.width}
             height={item.height}
+            alt={`${item.id} image`}
           />
         );
       })}
