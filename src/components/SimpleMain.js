@@ -7,10 +7,10 @@ const SimpleMain = () => {
   return (
     <div className="simple-main-wrapper">
       <h1 className="heading">
-        Hello{" "}
+        lets go{" "}
         <Typed
           className="typed-text"
-          strings={["React.", "Node.", "Mongo.", "SQL.", "Express."]}
+          strings={["React", "Node", "Mongo", "SQL", "Express"]}
           // startDelay={3000}
           typeSpeed={100}
           backSpeed={60}

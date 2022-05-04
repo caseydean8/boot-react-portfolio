@@ -1,5 +1,6 @@
 import Submarine from "./images/submarine-800x450.png";
 import ShoppingApp from "./images/shopify-800x450.png";
+import BurgerTime from "./images/burgertime.jpeg";
 
 const data = [
   {
@@ -16,48 +17,48 @@ const data = [
     link: "https://rocky-mesa-95810.herokuapp.com/",
     width: "800",
     height: "450",
-    github: "https://github.com/caseydean8/shopity-app",
+    github: "https://shopity.herokuapp.com/",
   },
   {
-    id: "",
-    image: "",
-    link: "",
-    width: "",
-    height: "",
+    id: "burger-time",
+    image: BurgerTime,
+    link: "https://lit-meadow-90249.herokuapp.com/",
+    width: "800",
+    height: "450",
     github: "",
   },
-  {
-    id: "",
-    image: "",
-    link: "",
-    width: "",
-    height: "",
-    github: "",
-  },
-  {
-    id: "",
-    image: "",
-    link: "",
-    width: "",
-    height: "",
-    github: "",
-  },
-  {
-    id: "",
-    image: "",
-    link: "",
-    width: "",
-    height: "",
-    github: "",
-  },
-  {
-    id: "",
-    image: "",
-    link: "",
-    width: "",
-    height: "",
-    github: "",
-  },
+  // {
+  //   id: "",
+  //   image: "",
+  //   link: "",
+  //   width: "",
+  //   height: "",
+  //   github: "",
+  // },
+  // {
+  //   id: "",
+  //   image: "",
+  //   link: "",
+  //   width: "",
+  //   height: "",
+  //   github: "",
+  // },
+  // {
+  //   id: "",
+  //   image: "",
+  //   link: "",
+  //   width: "",
+  //   height: "",
+  //   github: "",
+  // },
+  // {
+  //   id: "",
+  //   image: "",
+  //   link: "",
+  //   width: "",
+  //   height: "",
+  //   github: "",
+  // },
 ];
 
 export default data;
