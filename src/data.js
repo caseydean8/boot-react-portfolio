@@ -6,7 +6,7 @@ const data = [
   {
     id: "submarine",
     image: Submarine,
-    link: "https://blooming-peak-13476.herokuapp.com/",
+    // link: "https://blooming-peak-13476.herokuapp.com/",
     width: "800",
     height: "450",
     github: "",
@@ -14,10 +14,10 @@ const data = [
   {
     id: "shopping-app",
     image: ShoppingApp,
-    link: "https://rocky-mesa-95810.herokuapp.com/",
+    link: "https://shopity.herokuapp.com/",
     width: "800",
     height: "450",
-    github: "https://shopity.herokuapp.com/",
+    github: "",
   },
   {
     id: "burger-time",
