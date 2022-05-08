@@ -10,18 +10,14 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
-        {/* <Link className="navbar-brand" to="">
-          <img src={logo} className="logo" alt="logo" />
-        </Link> */}
         <h2 id="cdc">
           Casey Dean Carroll
         </h2>
-        {/* <h2>Full Stack Web Development</h2> */}
         <button
           className="navbar-toggler collapsed"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -32,7 +28,7 @@ const Navbar = () => {
         </button>
 
         <div
-          className="collapse navbar-collapse justify-content-end"
+          className="navbar-collapse collapse"
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ml-auto">
@@ -52,7 +48,6 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          {/* <Button>Portfolio</Button> */}
         </div>
       </div>
     </nav>
