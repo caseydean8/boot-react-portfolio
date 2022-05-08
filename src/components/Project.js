@@ -9,17 +9,20 @@ function Project(props) {
       <button
         type="button"
         data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
+        data-bs-target="#modal"
       >
         <img
           className="project-image"
           src={props.image}
           alt={props.alt}
-          width={props.width}
-          height={props.height}
+          // width={props.width}
+          // height={props.height}
+          width="800"
+          height="450"
         />
       </button>
-      <ProjectModal />
+      <ProjectModal
+    />
     </div>
   );
 }

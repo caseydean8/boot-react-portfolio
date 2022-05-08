@@ -1,8 +1,10 @@
+import "./ProjectModal.css";
+
 const Modal = (props) => {
   return (
     <div
       className="modal fade"
-      id="exampleModal"
+      id="modal"
       tabIndex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -20,7 +22,8 @@ const Modal = (props) => {
               aria-label="Close"
             ></button>
           </div>
-          <div className="modal-body">...</div>
+          <div className="modal-body"> Does not wisdom call out?
+		Does not understanding raise her voice?</div>
           <div className="modal-footer">
             <button
               type="button"
@@ -30,7 +33,7 @@ const Modal = (props) => {
               Close
             </button>
             <button type="button" className="btn btn-primary">
-              Save changes
+              github
             </button>
           </div>
         </div>

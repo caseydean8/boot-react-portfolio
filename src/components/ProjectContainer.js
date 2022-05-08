@@ -4,7 +4,6 @@ import "./ProjectContainer.css";
 import data from "../data.js";
 
 const ProjectContainer = () => {
-  console.log(data);
   return (
     <div className="project-container row">
       {data.map((item, index) => {
@@ -14,8 +13,8 @@ const ProjectContainer = () => {
             id={item.id}
             image={item.image}
             link={item.link}
-            width={item.width}
-            height={item.height}
+            // width={item.width}
+            // height={item.height}
             alt={`${item.id} image`}
           />
         );
