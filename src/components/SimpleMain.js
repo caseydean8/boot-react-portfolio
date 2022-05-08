@@ -1,5 +1,5 @@
 // shortcut rafce
-import React from "react";
+// import React from "react";
 import Typed from "react-typed";
 import "./SimpleMain.css";
 

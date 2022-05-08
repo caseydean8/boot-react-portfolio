@@ -1,12 +1,10 @@
-import "./components/font.css";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import { Outlet } from "react-router-dom";
 // "Outlet" renders childs route element
 import Navbar from "./components/Navbar";
 import SimpleMain from "./components/SimpleMain";
 import ProjectContainer from "./components/ProjectContainer";
-// import Main from "./components/Main";
 // import Home from "./routes/home";
 
 function App() {
@@ -16,8 +14,6 @@ function App() {
       <Navbar />
       <SimpleMain />
       <ProjectContainer />
-      {/* <Main /> */}
-      {/* <Home /> */}
     </div>
   );
 }

@@ -1,4 +1,6 @@
 
+/* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
+
 .navbar {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -8,51 +10,20 @@
   font-weight: 200;
   margin-bottom: 0;
 }
+
 /* nav links */
 nav a.nav-link {
   cursor: pointer;
 }
 
-nav ul li {
-  text-transform: uppercase;
+.nav-item {
+  text-align: center;
 }
 
-/* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
 
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 00.75rem;
-  /* add  after var() to overide bootstrap */
-  color: var(--primary-white);
-  border-top: 0.1875rem solid var(--primary-white);
+.navbar-light .navbar-toggler {
+  border-color: white;
 }
-
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0;
-  height: 6rem;
-}
-
-.navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
-
-/* These rules may make above rules redundant */
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
-}
-
-/* .navbar-toggler {
-  color: var(--primary-blue);
-  border-color: var(--primary-blue);
-} */
-
-/* .navbar-toggler:focus {
-  text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 0.1rem;
-} */
 
 .navbar-toggler span {
   display: block;

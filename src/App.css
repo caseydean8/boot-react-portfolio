@@ -7,11 +7,9 @@
 
 /* font note: below link in html will load font faster- see https://stackoverflow.com/questions/12316501/including-google-fonts-link-or-import */
 
-/* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap" rel="stylesheet"> */
-
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron&display=swap");
+.container-fluid {
+  font-family: 'Poppins', sans-serif;
+}
 
 /************** Header *****************/
 
