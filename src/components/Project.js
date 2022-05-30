@@ -1,6 +1,5 @@
 import React from "react";
 import "./Project.css";
-// need to add project modal, for description and github repository links
 import ProjectModal from "./ProjectModal";
 
 function Project(props) {
@@ -9,20 +8,17 @@ function Project(props) {
       <button
         type="button"
         data-bs-toggle="modal"
-        data-bs-target="#modal"
+        data-bs-target={`#modal-${props.id}`}
       >
         <img
           className="project-image"
           src={props.image}
           alt={props.alt}
-          // width={props.width}
-          // height={props.height}
-          width="800"
-          height="450"
+          width="600"
+          height="338"
         />
       </button>
-      <ProjectModal
-    />
+      <ProjectModal {...props} />
     </div>
   );
 }

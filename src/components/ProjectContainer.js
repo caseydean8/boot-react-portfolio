@@ -12,10 +12,11 @@ const ProjectContainer = () => {
             key={index}
             id={item.id}
             image={item.image}
-            link={item.link}
-            // width={item.width}
-            // height={item.height}
             alt={`${item.id} image`}
+            title={item.title}
+            text={item.text}
+            link={item.link}
+            repo={item.repo}
           />
         );
       })}

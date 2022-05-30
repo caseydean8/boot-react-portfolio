@@ -5,9 +5,9 @@ import "./SimpleMain.css";
 
 const SimpleMain = () => {
   return (
-    <div className="simple-main-wrapper">
-      <h1 className="heading">
-        lets go{" "}
+    <div className="container main">
+      <h1 className="heading">let's go</h1>
+      <div className="typed-container">
         <Typed
           className="typed-text"
           strings={["React", "Node", "Mongo", "SQL", "Express"]}
@@ -20,9 +20,9 @@ const SimpleMain = () => {
           loop
           // fadeOut={true}
         />
-      </h1>
+      </div>
       <h5 className="subheading">
-        Welcome to the Portfolio of Casey Dean Carroll, Full Stack Web Developer
+        Welcome to the Portfolio of Casey Dean Carroll, Full Stack Developer
       </h5>
     </div>
   );

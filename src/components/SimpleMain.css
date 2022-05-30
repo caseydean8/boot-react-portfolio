@@ -1,12 +1,18 @@
-.typed-text {
-  color: var(--primary-blue);
+
+.main {
+  padding: 0.625rem;
+  margin: 4.5rem auto;
 }
 
 .heading {
-  font-weight: 600;
-  font-size: 8vh;
+  font-size: 3rem;
+  margin-top: 1.875rem;
+  margin-bottom: -0.875rem;
 }
 
-.subheading {
-  /* font-weight: 300; */
+.typed-text {
+  color: var(--primary-blue);
+  font-weight: 700;
+  font-size: 4.3rem;
+  padding-left: 1.875rem;
 }

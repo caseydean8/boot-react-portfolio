@@ -4,7 +4,7 @@ const Modal = (props) => {
   return (
     <div
       className="modal fade"
-      id="modal"
+      id={`modal-${props.id}`}
       tabIndex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -13,7 +13,7 @@ const Modal = (props) => {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="exampleModalLabel">
-              Modal title
+              {props.title ? props.title : `title here`}
             </h5>
             <button
               type="button"
@@ -22,19 +22,29 @@ const Modal = (props) => {
               aria-label="Close"
             ></button>
           </div>
-          <div className="modal-body"> Does not wisdom call out?
-		Does not understanding raise her voice?</div>
+          <div className="modal-body">
+            {props.text
+              ? props.text
+              : `Does not wisdom call out?
+		Does not understanding raise her voice?`}
+          </div>
           <div className="modal-footer">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-bs-dismiss="modal"
+            <a
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.link}
             >
-              Close
-            </button>
-            <button type="button" className="btn btn-primary">
+              Deployed Project
+            </a>
+            <a
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={props.repo}
+            >
               github
-            </button>
+            </a>
           </div>
         </div>
       </div>
