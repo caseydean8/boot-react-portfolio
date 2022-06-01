@@ -2,7 +2,7 @@
   "name": "boot-react-portfolio",
   "homepage": "https://github.com/caseydean8/boot-react-portfolio/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@popperjs/core": "^2.11.0",
     "@react-md/button": "^4.0.3",
