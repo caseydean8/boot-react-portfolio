@@ -1,17 +1,17 @@
-import { render } from "react-dom";
+import React from "react";
+import ReactDom from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
-const rootElement = document.getElementById("root");
+const root = ReactDom.createRoot(document.getElementById("root"));
 
-render(
+root.render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
-  </HashRouter>,
-  rootElement
+  </HashRouter>
 );
