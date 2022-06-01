@@ -5,6 +5,8 @@ import {
   // Outlet,
   Link,
 } from "react-router-dom";
+// import Home from "../routes/Home"
+// import About from "../routes/About"
 
 const Navbar = () => {
   return (
@@ -32,18 +34,23 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/">
+                home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
                 about
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/contact">
                 contact
               </Link>
             </li>
           </ul>
         </div>
         {/* Alternate dropdown menu */}
-          {/* <button
+        {/* <button
             className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="dropdown"
