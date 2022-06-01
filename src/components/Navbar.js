@@ -1,12 +1,6 @@
-// import React from "react";
+import React from "react";
 import "./Navbar.css";
-import {
-  //moved Outlet to App.js
-  // Outlet,
-  Link,
-} from "react-router-dom";
-// import Home from "../routes/Home"
-// import About from "../routes/About"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (

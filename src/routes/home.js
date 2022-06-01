@@ -1,15 +1,14 @@
 import React from "react";
-import Layout from "../components/Layout";
-import Navbar from "../components/Navbar";
-import Main from "../components/Main";
+import Splash from "../components/Splash";
+import ProjectContainer from "../components/ProjectContainer";
 
 const Home = () => {
   return (
-    <Layout 
-    header={<Navbar />}
-    main={<Main />}
-    />
-  )
-}
+    <>
+      <Splash />
+      <ProjectContainer />
+    </>
+  );
+};
 
 export default Home;

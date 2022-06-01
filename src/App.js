@@ -1,19 +1,21 @@
 import "./App.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import { Outlet } from "react-router-dom";
-// "Outlet" renders childs route element
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import SimpleMain from "./components/SimpleMain";
-import ProjectContainer from "./components/ProjectContainer";
-// import Home from "./routes/home";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
 
 function App() {
   return (
-    // container-fluid p-0 will remove gutters
     <div className="container-fluid">
-      <Navbar />
-      <SimpleMain />
-      <ProjectContainer />
+      <HashRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
