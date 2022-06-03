@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,6 +27,21 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
+              <a className="nav-link" href="/">
+                home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/about">
+                about
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
+                contact
+              </a>
+            </li>
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/">
                 home
               </Link>
@@ -40,35 +55,9 @@ const Navbar = () => {
               <Link className="nav-link" to="/contact">
                 contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
-        {/* Alternate dropdown menu */}
-        {/* <button
-            className="navbar-toggler collapsed"
-            type="button"
-            data-bs-toggle="dropdown"
-            data-bs-target="#dropdown-links"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <ul className="dropdown-menu">
-            <li>
-              <Link className="dropdown-item" to="/">
-                about
-              </Link>
-            </li>
-            <li>
-              <Link className="dropdown-item" to="/">
-                contact
-              </Link>
-            </li>
-          </ul> */}
       </div>
     </nav>
   );
