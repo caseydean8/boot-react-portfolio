@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,21 +27,6 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/">
-                home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">
-                about
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                contact
-              </a>
-            </li>
-            {/* <li className="nav-item">
               <Link className="nav-link" to="/">
                 home
               </Link>
@@ -55,6 +40,21 @@ const Navbar = () => {
               <Link className="nav-link" to="/contact">
                 contact
               </Link>
+            </li>
+            {/* <li className="nav-item">
+              <a className="nav-link" href="/">
+                home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/about">
+                about
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
+                contact
+              </a>
             </li> */}
           </ul>
         </div>
