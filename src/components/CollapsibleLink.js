@@ -1,13 +1,13 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const CollapsibleLink = (props) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <li
       className="nav-item"
-      onClick={() => navigate(props.url)}
+      // onClick={() => navigate(props.url)}
       data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent"
     >
