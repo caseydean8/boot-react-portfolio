@@ -1,8 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
   return (
     <nav className="navbar navbar-expand-md fixed-top navbar-light">
       <div className="container">
@@ -26,17 +28,32 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              onClick={() => navigate("/")}
+            >
               <Link className="nav-link" to="/">
                 home
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              onClick={() => navigate("/about")}
+            >
               <Link className="nav-link" to="/about">
                 about
               </Link>
             </li>
-            <li className="nav-item">
+            <li
+              className="nav-item"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              onClick={() => navigate("/contact")}
+            >
               <Link className="nav-link" to="/contact">
                 contact
               </Link>
