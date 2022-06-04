@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/www.caseydeancarroll.com/static/css/main.61f133f1.chunk.css",
-    "main.js": "/www.caseydeancarroll.com/static/js/main.a5a0e110.chunk.js",
-    "main.js.map": "/www.caseydeancarroll.com/static/js/main.a5a0e110.chunk.js.map",
-    "runtime-main.js": "/www.caseydeancarroll.com/static/js/runtime-main.8fcc13d9.js",
-    "runtime-main.js.map": "/www.caseydeancarroll.com/static/js/runtime-main.8fcc13d9.js.map",
-    "static/css/2.7e3b77af.chunk.css": "/www.caseydeancarroll.com/static/css/2.7e3b77af.chunk.css",
-    "static/js/2.0ae23bf1.chunk.js": "/www.caseydeancarroll.com/static/js/2.0ae23bf1.chunk.js",
-    "static/js/2.0ae23bf1.chunk.js.map": "/www.caseydeancarroll.com/static/js/2.0ae23bf1.chunk.js.map",
-    "index.html": "/www.caseydeancarroll.com/index.html",
-    "static/css/2.7e3b77af.chunk.css.map": "/www.caseydeancarroll.com/static/css/2.7e3b77af.chunk.css.map",
-    "static/css/main.61f133f1.chunk.css.map": "/www.caseydeancarroll.com/static/css/main.61f133f1.chunk.css.map",
-    "static/js/2.0ae23bf1.chunk.js.LICENSE.txt": "/www.caseydeancarroll.com/static/js/2.0ae23bf1.chunk.js.LICENSE.txt",
-    "static/media/Submarine.f39af7ba.webp": "/www.caseydeancarroll.com/static/media/Submarine.f39af7ba.webp",
-    "static/media/ahoy.d1a2601c.webp": "/www.caseydeancarroll.com/static/media/ahoy.d1a2601c.webp",
-    "static/media/burgertime.54bdbde4.webp": "/www.caseydeancarroll.com/static/media/burgertime.54bdbde4.webp",
-    "static/media/crystal-vibes.28c33c22.webp": "/www.caseydeancarroll.com/static/media/crystal-vibes.28c33c22.webp",
-    "static/media/library.2a585af1.webp": "/www.caseydeancarroll.com/static/media/library.2a585af1.webp",
-    "static/media/shopity.1f787bc4.webp": "/www.caseydeancarroll.com/static/media/shopity.1f787bc4.webp"
+    "main.css": "/boot-react-portfolio/static/css/main.61f133f1.chunk.css",
+    "main.js": "/boot-react-portfolio/static/js/main.3bfcc7b8.chunk.js",
+    "main.js.map": "/boot-react-portfolio/static/js/main.3bfcc7b8.chunk.js.map",
+    "runtime-main.js": "/boot-react-portfolio/static/js/runtime-main.a21f5f47.js",
+    "runtime-main.js.map": "/boot-react-portfolio/static/js/runtime-main.a21f5f47.js.map",
+    "static/js/2.7ec6bd8d.chunk.js": "/boot-react-portfolio/static/js/2.7ec6bd8d.chunk.js",
+    "static/js/2.7ec6bd8d.chunk.js.map": "/boot-react-portfolio/static/js/2.7ec6bd8d.chunk.js.map",
+    "index.html": "/boot-react-portfolio/index.html",
+    "static/css/main.61f133f1.chunk.css.map": "/boot-react-portfolio/static/css/main.61f133f1.chunk.css.map",
+    "static/js/2.7ec6bd8d.chunk.js.LICENSE.txt": "/boot-react-portfolio/static/js/2.7ec6bd8d.chunk.js.LICENSE.txt",
+    "static/media/Submarine.f39af7ba.webp": "/boot-react-portfolio/static/media/Submarine.f39af7ba.webp",
+    "static/media/ahoy.d1a2601c.webp": "/boot-react-portfolio/static/media/ahoy.d1a2601c.webp",
+    "static/media/burgertime.54bdbde4.webp": "/boot-react-portfolio/static/media/burgertime.54bdbde4.webp",
+    "static/media/crystal-vibes.28c33c22.webp": "/boot-react-portfolio/static/media/crystal-vibes.28c33c22.webp",
+    "static/media/library.2a585af1.webp": "/boot-react-portfolio/static/media/library.2a585af1.webp",
+    "static/media/shopity.1f787bc4.webp": "/boot-react-portfolio/static/media/shopity.1f787bc4.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fcc13d9.js",
-    "static/css/2.7e3b77af.chunk.css",
-    "static/js/2.0ae23bf1.chunk.js",
+    "static/js/runtime-main.a21f5f47.js",
+    "static/js/2.7ec6bd8d.chunk.js",
     "static/css/main.61f133f1.chunk.css",
-    "static/js/main.a5a0e110.chunk.js"
+    "static/js/main.3bfcc7b8.chunk.js"
   ]
 }
