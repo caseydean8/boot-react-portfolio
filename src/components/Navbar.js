@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import CollapsibleLink from "./CollapsibleLink";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -26,9 +26,21 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav ml-auto">
-            <CollapsibleLink url={"/"} page={"home"} />
-            <CollapsibleLink url={"/about"} page={"about"} />
-            <CollapsibleLink url={"/contact"} page={"contact"} />
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
+                about
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
+                contact
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
