@@ -41,21 +41,6 @@ const Navbar = () => {
                 contact
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="/">
-                home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">
-                about
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                contact
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>
