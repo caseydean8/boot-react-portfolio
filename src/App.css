@@ -11,3 +11,28 @@
   font-family: 'Poppins', sans-serif;
   max-width: 100rem;
 }
+
+/* Contact Page -------------------------------- */
+.form-container {
+  margin-top: 7rem;
+}
+
+.contact-header {
+  color:var(--primary-blue);
+  font-weight: 700;
+  font-size: 3.4rem;
+}
+
+.form-control {
+  /* color: var(--primary-blue); */
+  border: .5px solid #00b4e244
+}
+
+textarea.form-control {
+  min-height: calc(5em + (0.75rem + 2px));
+}
+
+.submit-button {
+  border-color: #00b4e2;
+  color: #00b4e2
+}
