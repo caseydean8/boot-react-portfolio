@@ -1,16 +1,20 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import Typed from "react-typed";
-import ProjectModal from "../components/ProjectModal";
 
 function Contact() {
   const [state, handleSubmit] = useForm("xqknnrqa");
-  console.log(state);
+
   if (state.succeeded) {
-    <ProjectModal text="thanks, I'll be in touch asap" />;
+    return (
+      <div className="form-container container">
+        <h1 className="contact-header">Thanks!</h1>
+        <p>I'll be in touch with you asap.</p>
+      </div>
+    );
   }
   return (
-    <div className="form-container">
+    <div className="form-container container">
       <Typed
         className="contact-header"
         strings={["contact"]}
@@ -53,7 +57,7 @@ function Contact() {
           />
         </div>
 
-        <div className="d-grid gap-2 col-sm-12 mx-auto">
+        <div className="d-grid gap-2 d-sm-block">
           <button
             className="btn submit-button"
             type="submit"

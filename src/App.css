@@ -2,6 +2,7 @@
   --primary-white: #fff;
   --primary-orange: #ba6c47;
   --primary-blue: #00b4e2;
+  /* --primary-blue: #008BAD; */
   --primary-grey: #6b6d72;
 }
 
@@ -12,9 +13,31 @@
   max-width: 100rem;
 }
 
+/* Splash Page --------------------------------- */
+
+.main {
+  padding: 0.625rem;
+  margin: 4.5rem auto;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-top: 1.875rem;
+  margin-bottom: -0.875rem;
+}
+
+.typed-text {
+  color: var(--primary-blue);
+  font-weight: 700;
+  font-size: 4.3rem;
+  padding-left: 1.875rem;
+}
+
 /* Contact Page -------------------------------- */
 .form-container {
   margin-top: 7rem;
+  /* padding: 0.625rem; */
+  max-width: 35rem;
 }
 
 .contact-header {
@@ -24,8 +47,8 @@
 }
 
 .form-control {
-  /* color: var(--primary-blue); */
-  border: .5px solid #00b4e244
+  border: .5px solid #00b4e244;
+  /* max-width: 35rem; */
 }
 
 textarea.form-control {
@@ -33,6 +56,6 @@ textarea.form-control {
 }
 
 .submit-button {
-  border-color: #00b4e2;
-  color: #00b4e2
+  border-color:var(--primary-blue);
+  color:var(--primary-blue)
 }

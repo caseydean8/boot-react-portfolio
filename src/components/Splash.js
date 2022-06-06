@@ -1,7 +1,6 @@
 // shortcut rafce
 // import React from "react";
 import Typed from "react-typed";
-import "./Splash.css";
 
 const SimpleMain = () => {
   return (

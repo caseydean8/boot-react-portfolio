@@ -1,9 +1,9 @@
 /* Arise and be doing, and the LORD be with thee. I Chron 22:16 */
 
 .navbar {
-  padding: 1rem 0 1rem 0.75rem;
+  padding: 1rem 0;
   background-color: white;
-  opacity: .99;
+  opacity: 0.99;
 }
 
 #cdc {
@@ -63,4 +63,10 @@ nav a.nav-link {
 }
 .navbar-toggler span:nth-child(3) {
   transform: translate(0%, 0%) rotate(0deg);
+}
+
+@media screen and (max-width: 576px) {
+  #cdc {
+    padding-left: 0.75rem;
+  }
 }
