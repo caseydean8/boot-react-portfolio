@@ -59,3 +59,7 @@ textarea.form-control {
   border-color:var(--primary-blue);
   color:var(--primary-blue)
 }
+
+.errorMsg {
+  color: red;
+}
