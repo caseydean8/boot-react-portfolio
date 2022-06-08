@@ -24,7 +24,6 @@ class ContactForm extends React.Component {
     }
     // Email
     if (!fields["email"] || !this.validateEmail(fields["email"])) {
-      console.log(`${fields["email"]} failed test`);
       formIsValid = false;
       errors["email"] = "Please enter a valid email";
     }
