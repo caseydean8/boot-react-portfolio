@@ -1,10 +1,40 @@
 import React from "react";
 import "./Navbar.css";
-import { Link, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const urls = [
+    ["/", "home"],
+    ["/about", "about"],
+    ["/contact", "contact"],
+  ];
+  let routes = [];
+  
+  urls.forEach((route, index) => {
+    routes.push(
+      <li
+        key={index}
+        className="nav-item"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        onClick={() => navigate(route[0])}
+      >
+        <NavLink
+          className="nav-link"
+          to={route[0]}
+          style={({ isActive }) => (isActive ? activeStyle : null)}
+        >
+          {route[1]}
+        </NavLink>
+      </li>
+    );
+  });
 
   const navigate = useNavigate();
+  const activeStyle = {
+    color: "#00b4e2",
+  };
+
   return (
     <nav className="navbar navbar-expand-md fixed-top navbar-light">
       <div className="container">
@@ -27,38 +57,7 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarSupportedContent"
         >
-          <ul className="navbar-nav ml-auto">
-            <li
-              className="nav-item"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              onClick={() => navigate("/")}
-            >
-              <Link className="nav-link" to="/">
-                home
-              </Link>
-            </li>
-            <li
-              className="nav-item"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              onClick={() => navigate("/about")}
-            >
-              <Link className="nav-link" to="/about">
-                about
-              </Link>
-            </li>
-            <li
-              className="nav-item"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              onClick={() => navigate("/contact")}
-            >
-              <Link className="nav-link" to="/contact">
-                contact
-              </Link>
-            </li>
-          </ul>
+          <ul className="navbar-nav ml-auto">{routes}</ul>
         </div>
       </div>
     </nav>

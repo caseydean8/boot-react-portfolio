@@ -1,15 +1,9 @@
 import React from "react";
-import Typed from "react-typed";
 
 export default function About() {
   return (
     <div className="form-container container">
-      <Typed
-        className="contact-header"
-        strings={["about"]}
-        typeSpeed={100}
-        showCursor={false}
-      />
+      <h1 className="contact-header">about</h1>
       <p>
         I build dynamic user experiences and robust applications for any of your
         web development needs, utilizing the most cutting edge technologies and

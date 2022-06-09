@@ -1,6 +1,5 @@
 import React from "react";
 import * as emailjs from "@emailjs/browser";
-import Typed from "react-typed";
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -38,6 +37,7 @@ class ContactForm extends React.Component {
 
   validateEmail = (email) => {
     return email.match(
+      // eslint-disable-next-line
       /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     );
   };
@@ -91,12 +91,7 @@ class ContactForm extends React.Component {
           </>
         ) : (
           <>
-            <Typed
-              className="contact-header"
-              strings={["contact"]}
-              typeSpeed={100}
-              showCursor={false}
-            />
+            <h1 className="contact-header">contact</h1>
             <form onSubmit={this.handleSubmit.bind(this)}>
               <div className="mb-3">
                 <input
