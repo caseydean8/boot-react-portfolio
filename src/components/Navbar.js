@@ -1,35 +1,60 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 768);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   const urls = [
     ["/", "home"],
     ["/about", "about"],
     ["/contact", "contact"],
   ];
   let routes = [];
-  
-  urls.forEach((route, index) => {
-    routes.push(
-      <li
-        key={index}
-        className="nav-item"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        onClick={() => navigate(route[0])}
-      >
-        <NavLink
-          className="nav-link"
-          to={route[0]}
-          style={({ isActive }) => (isActive ? activeStyle : null)}
-        >
-          {route[1]}
-        </NavLink>
-      </li>
-    );
-  });
 
+  urls.forEach((route, index) => {
+    isDesktop
+      ? routes.push(
+          <li
+            key={index}
+            className="nav-item"
+          >
+            <NavLink
+              className="nav-link"
+              to={route[0]}
+              style={({ isActive }) => (isActive ? activeStyle : null)}
+            >
+              {route[1]}
+            </NavLink>
+          </li>
+        )
+      : routes.push(
+          <li
+            key={index}
+            className="nav-item"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            onClick={() => navigate(route[0])}
+          >
+            <NavLink
+              className="nav-link"
+              to={route[0]}
+              style={({ isActive }) => (isActive ? activeStyle : null)}
+            >
+              {route[1]}
+            </NavLink>
+          </li>
+        );
+  });
   const navigate = useNavigate();
   const activeStyle = {
     color: "#00b4e2",
