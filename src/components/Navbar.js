@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 768);
 
   const updateMedia = () => {
     setDesktop(window.innerWidth > 768);
@@ -14,20 +14,20 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", updateMedia);
   });
 
+  const navigate = useNavigate();
+  const activeStyle = {
+    color: "#00b4e2",
+  };
   const urls = [
     ["/", "home"],
     ["/about", "about"],
     ["/contact", "contact"],
   ];
   let routes = [];
-
   urls.forEach((route, index) => {
     isDesktop
       ? routes.push(
-          <li
-            key={index}
-            className="nav-item"
-          >
+          <li key={index} className="nav-item">
             <NavLink
               className="nav-link"
               to={route[0]}
@@ -55,10 +55,6 @@ const Navbar = () => {
           </li>
         );
   });
-  const navigate = useNavigate();
-  const activeStyle = {
-    color: "#00b4e2",
-  };
 
   return (
     <nav className="navbar navbar-expand-md fixed-top navbar-light">

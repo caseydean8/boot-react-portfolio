@@ -1,7 +1,9 @@
 :root {
   --primary-blue: #00b4e2;
 }
-
+.container {
+  max-width: 1024px;
+}
 .container-fluid {
   font-family: 'Poppins', sans-serif;
   max-width: 100rem;
