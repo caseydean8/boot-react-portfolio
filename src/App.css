@@ -1,12 +1,6 @@
 :root {
-  --primary-white: #fff;
-  --primary-orange: #ba6c47;
   --primary-blue: #00b4e2;
-  /* --primary-blue: #008BAD; */
-  --primary-grey: #6b6d72;
 }
-
-/* font note: below link in html will load font faster- see https://stackoverflow.com/questions/12316501/including-google-fonts-link-or-import */
 
 .container-fluid {
   font-family: 'Poppins', sans-serif;
@@ -36,7 +30,8 @@
 /* Contact Page -------------------------------- */
 .form-container {
   margin-top: 7.5rem;
-  /* padding: 0.625rem; */
+  margin-bottom: 7.5rem;
+  padding-bottom: 27vh;
   max-width: 35rem;
 }
 
@@ -47,8 +42,7 @@
 }
 
 .form-control {
-  border: .5px solid #00b4e244;
-  /* max-width: 35rem; */
+  border: 1px solid #00b4e244;
 }
 
 textarea.form-control {
@@ -60,6 +54,6 @@ textarea.form-control {
   color:var(--primary-blue)
 }
 
-.errorMsg {
+.error-msg {
   color: red;
 }
