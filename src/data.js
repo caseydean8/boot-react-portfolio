@@ -13,7 +13,7 @@ const data = [
     title: "Submarine",
     repo: "https://github.com/caseydean8/submarine",
     text:
-      "Submarine is a subscription tracking app built with the react, node, mongo, express, and bootstrap.",
+      "Submarine is a subscription tracking app built with the react, node, mongo, express, and bootstrap. \n You can take a look around with username 'guest' and password 'guest'.",
   },
   {
     id: "shopping-app",

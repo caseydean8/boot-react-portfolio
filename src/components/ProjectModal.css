@@ -2,6 +2,21 @@
   white-space: pre-line;
 }
 
-.modal-header, .modal-footer {
-  border: 0
+.modal-title {
+  color: #00b4e2;
+  font-weight: 600;
+}
+
+.modal-header,
+.modal-footer {
+  border: 0;
+}
+
+.modal-header {
+  padding-bottom: 0;
+}
+
+.modal-link {
+  color: #00b4e2;
+  border-color:#00b4e2;
 }

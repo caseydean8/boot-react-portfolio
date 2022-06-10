@@ -12,9 +12,9 @@ const Modal = (props) => {
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title" id="exampleModalLabel">
+            <h1 className="modal-title" id="exampleModalLabel">
               {props.title ? props.title : `title here`}
-            </h5>
+            </h1>
             <button
               type="button"
               className="btn-close"
@@ -30,15 +30,15 @@ const Modal = (props) => {
           </div>
           <div className="modal-footer">
             <a
-              className="btn"
+              className="btn modal-link"
               target="_blank"
               rel="noopener noreferrer"
               href={props.link}
             >
-              Deployed Project
+              website
             </a>
             <a
-              className="btn"
+              className="btn modal-link"
               target="_blank"
               rel="noopener noreferrer"
               href={props.repo}
