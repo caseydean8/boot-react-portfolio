@@ -9,7 +9,7 @@ const SimpleMain = () => {
       <div className="typed-container">
         <Typed
           className="typed-text"
-          strings={["React", "Node", "Mongo", "SQL", "Express"]}
+          strings={["React", "Node", "Mongo", "MySQL", "Express", "jQuery"]}
           // startDelay={3000}
           typeSpeed={100}
           backSpeed={60}

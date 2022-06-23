@@ -25,15 +25,6 @@ const data = [
       "Shopity is helpful shopping assistant that allows users to login and create a list of pantry items, which can then moved onto a shopping list and then into a virtual cart. Shopity was created with the Pug template engine, an SQL database with the sequelize.js ORM, and express",
   },
   {
-    id: "burger-time",
-    image: BurgerTime,
-    link: " https://obscure-lake-72708.herokuapp.com/",
-    title: "burger time",
-    repo: "https://github.com/caseydean8/burger",
-    text:
-      "Burger time is an application using the MVC design pattern and object relational mapping to allow a user to enter a burger and 'eat' it with a button click. User data is stored in a mysql database. \n \n This project is built with: \n Node.js \n Express framework for routing \n Handlebars template engine \n mysql for database management",
-  },
-  {
     id: "book-safe",
     image: BookSafe,
     link: "https://book-safe-react.herokuapp.com/",
@@ -41,6 +32,15 @@ const data = [
     repo: "https://github.com/caseydean8/book-safe",
     text:
       "Book Safe is an full stack MERN application that allows the user to search for a book title and receive information, including the books author or authors, a thumbnail of the book cover, and a link to the book on google books. The user can then save the book information on a remote database for future reference, and delete the book from that database if desired.\n \n The application utilizes the following technologies: \n React \n Node \n Express \n MongoDB \n Heroku \n axios \n bootstrap",
+  },
+  {
+    id: "burger-time",
+    image: BurgerTime,
+    link: " https://obscure-lake-72708.herokuapp.com/",
+    title: "burger time",
+    repo: "https://github.com/caseydean8/burger",
+    text:
+      "Burger time is an application using the MVC design pattern and object relational mapping to allow a user to enter a burger and 'eat' it with a button click. User data is stored in a mysql database. \n \n This project is built with: \n Node.js \n Express framework for routing \n Handlebars template engine \n mysql for database management",
   },
   {
     id: "crystal-vibes",
