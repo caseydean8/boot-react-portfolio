@@ -1,9 +1,9 @@
 import Submarine from "./images-600x338/Submarine.webp";
 import ShoppingApp from "./images-600x338/shopity.webp";
 import BurgerTime from "./images-600x338/burgertime.webp";
-import BookSafe from "./images-600x338/library.webp";
+import BookSafe from "./images-600x338/book-safe.webp";
 import Crystal from "./images-600x338/crystal-vibes.webp";
-import Ahoy from "./images-600x338/ahoy.webp";
+import Ahoy from "./images-600x338/react-ahoy.webp";
 
 const data = [
   {
@@ -55,9 +55,9 @@ const data = [
     id: "react-ahoy",
     image: Ahoy,
     link: "https://caseydean8.github.io/ahoy/",
-    title: "Ahoy",
+    title: "React Ahoy!",
     repo: "https://github.com/caseydean8/ahoy",
-    text: "Ahoy is image based guessing game built with react. \n The game contains twelve images and the user is challenged with clicking on them without clicking on the same image twice.",
+    text: "React Ahoy is image memorization SPA. \n The game contains twelve ship images and the user is challenged to click them all without clicking the same ship twice.",
   },
   // {
   //   id: "",
