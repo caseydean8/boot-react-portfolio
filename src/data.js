@@ -1,9 +1,9 @@
 import Submarine from "./images-600x338/Submarine.webp";
 import ShoppingApp from "./images-600x338/shopity.webp";
-import BurgerTime from "./images-600x338/burgertime.webp";
 import BookSafe from "./images-600x338/book-safe.webp";
 import Crystal from "./images-600x338/crystal-vibes.webp";
 import Ahoy from "./images-600x338/react-ahoy.webp";
+import ProMgmt from "./images-600x338/projectMgmt.jpeg"
 
 const data = [
   {
@@ -34,13 +34,13 @@ const data = [
       "Book Safe is an full stack MERN application that allows the user to search for a book title and receive information, including the books author or authors, a thumbnail of the book cover, and a link to the book on google books. The user can then save the book information on a remote database for future reference, and delete the book from that database if desired.\n \n The application utilizes the following technologies: \n React \n Node \n Express \n MongoDB \n Heroku \n axios \n bootstrap",
   },
   {
-    id: "burger-time",
-    image: BurgerTime,
-    link: " https://obscure-lake-72708.herokuapp.com/",
-    title: "burger time",
-    repo: "https://github.com/caseydean8/burger",
+    id: "graphql-mgmt",
+    image: ProMgmt,
+    link: "https://graphql-mgmt.herokuapp.com/",
+    title: "GraphQL MGMT",
+    repo: "https://github.com/caseydean8/GraphQL-MGMT-App",
     text:
-      "Burger time is an application using the MVC design pattern and object relational mapping to allow a user to enter a burger and 'eat' it with a button click. User data is stored in a mysql database. \n \n This project is built with: \n Node.js \n Express framework for routing \n Handlebars template engine \n mysql for database management",
+      "GraphQL MGMT is a full stack application using the GraphQL query management system. It is built with React, Express, MongoDB, Apollo, and Bootstrap 5. Users can create, update, and delete clients as well as their related projects",
   },
   {
     id: "crystal-vibes",
