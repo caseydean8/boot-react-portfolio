@@ -4,7 +4,7 @@ import ProjectModal from "./ProjectModal";
 
 function Project(props) {
   return (
-    <div id={props.id} className="project col-md-6 col-lg-4 p-0">
+    <div id={props.id} className="project col-sm-6 col-lg-4 p-0">
       <button
         type="button"
         data-bs-toggle="modal"

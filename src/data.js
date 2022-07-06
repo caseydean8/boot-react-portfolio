@@ -3,7 +3,7 @@ import ShoppingApp from "./images-600x338/shopity.webp";
 import BookSafe from "./images-600x338/book-safe.webp";
 import Crystal from "./images-600x338/crystal-vibes.webp";
 import Ahoy from "./images-600x338/react-ahoy.webp";
-import ProMgmt from "./images-600x338/projectMgmt.jpeg"
+import ProMgmt from "./images-600x338/projectMgmt.webp"
 
 const data = [
   {
