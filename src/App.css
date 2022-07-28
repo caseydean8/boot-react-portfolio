@@ -43,6 +43,10 @@
   font-size: 3.4rem;
 }
 
+.contact {
+  text-align: center;
+}
+
 .form-control {
   border: 1px solid #00b4e244;
 }

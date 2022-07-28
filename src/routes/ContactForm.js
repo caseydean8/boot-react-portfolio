@@ -86,8 +86,8 @@ class ContactForm extends React.Component {
       <div className="form-container container">
         {this.state.submitted ? (
           <>
-            <h1 className="contact-header">Thanks!</h1>
-            <p>I'll be in touch with you asap</p>
+            <h1 className="contact-header contact">Thanks!</h1>
+            <p className="contact">I'll be in touch with you asap</p>
           </>
         ) : (
           <>
