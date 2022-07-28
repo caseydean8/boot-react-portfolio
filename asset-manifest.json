@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.49645e46.chunk.css",
-    "main.js": "/static/js/main.b75fac01.chunk.js",
-    "main.js.map": "/static/js/main.b75fac01.chunk.js.map",
+    "main.css": "/static/css/main.53bf08d9.chunk.css",
+    "main.js": "/static/js/main.0240c888.chunk.js",
+    "main.js.map": "/static/js/main.0240c888.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f52f3762.js",
     "runtime-main.js.map": "/static/js/runtime-main.f52f3762.js.map",
     "static/js/2.7df595bc.chunk.js": "/static/js/2.7df595bc.chunk.js",
     "static/js/2.7df595bc.chunk.js.map": "/static/js/2.7df595bc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.49645e46.chunk.css.map": "/static/css/main.49645e46.chunk.css.map",
+    "static/css/main.53bf08d9.chunk.css.map": "/static/css/main.53bf08d9.chunk.css.map",
     "static/js/2.7df595bc.chunk.js.LICENSE.txt": "/static/js/2.7df595bc.chunk.js.LICENSE.txt",
     "static/media/Submarine.f39af7ba.webp": "/static/media/Submarine.f39af7ba.webp",
     "static/media/book-safe.48789192.webp": "/static/media/book-safe.48789192.webp",
     "static/media/crystal-vibes.28c33c22.webp": "/static/media/crystal-vibes.28c33c22.webp",
     "static/media/projectMgmt.842fb421.webp": "/static/media/projectMgmt.842fb421.webp",
-    "static/media/react-ahoy.055e99e8.webp": "/static/media/react-ahoy.055e99e8.webp",
+    "static/media/react-ahoy.9e3f2ee2.webp": "/static/media/react-ahoy.9e3f2ee2.webp",
     "static/media/shopity.aa48e98a.webp": "/static/media/shopity.aa48e98a.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f52f3762.js",
     "static/js/2.7df595bc.chunk.js",
-    "static/css/main.49645e46.chunk.css",
-    "static/js/main.b75fac01.chunk.js"
+    "static/css/main.53bf08d9.chunk.css",
+    "static/js/main.0240c888.chunk.js"
   ]
 }
