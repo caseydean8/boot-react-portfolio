@@ -19,18 +19,18 @@ button {
   filter: blur(1px);
 } */
 
-.project-container .project{
+/* .project-container .project{
   cursor: pointer;
   opacity: 1;
   transition: all 0.3s linear;
   border-radius: 30px;
-}
+} */
 
-.project-container .project:hover {
+/* .project-container .project:hover { */
   /* box-shadow: 0 5px 15px gba(0, 0, 0, 0.4); */
-  opacity: 1;
-  transform: scale(1.005);
+  /* opacity: 1; */
+  /* transform: scale(1.005); */
   /* -webkit-filter: blur(0); */
   /* filter: blur(0); */
-  border-radius: 30px;
-}
+  /* border-radius: 30px; */
+/* } */
