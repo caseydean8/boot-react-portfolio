@@ -1,23 +1,18 @@
-// shortcut rafce
-// import React from "react";
 import Typed from "react-typed";
 
-const SimpleMain = () => {
+const Splash = () => {
   return (
-    <div className="container main">
+    <div className="container p-3 mx-auto mt-5 mb-4">
       <h1 className="heading">let's go</h1>
-      <div className="typed-container">
+      <div className="mb-3">
         <Typed
           className="typed-text"
           strings={["React", "Node", "Mongo", "MySQL", "Express", "jQuery"]}
-          // startDelay={3000}
           typeSpeed={100}
           backSpeed={60}
           backDelay={2100}
-          // cursorChar={}
           showCursor={false}
           loop
-          // fadeOut={true}
         />
       </div>
       <h5 className="subheading">
@@ -27,4 +22,4 @@ const SimpleMain = () => {
   );
 };
 
-export default SimpleMain;
+export default Splash;
