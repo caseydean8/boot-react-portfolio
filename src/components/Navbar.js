@@ -59,7 +59,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md fixed-top navbar-light">
       <div className="container">
-        <h2 id="cdc">Casey Dean Carroll</h2>
+        <h2 id="cdc">Casey Carroll</h2>
         <button
           className="navbar-toggler collapsed"
           type="button"

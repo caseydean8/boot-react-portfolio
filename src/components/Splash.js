@@ -16,7 +16,7 @@ const Splash = () => {
         />
       </div>
       <h5 className="subheading">
-        Welcome to the Portfolio of Casey Dean Carroll, Full Stack Developer
+        Welcome to the Portfolio of Casey Carroll, Full Stack Developer
       </h5>
     </div>
   );
