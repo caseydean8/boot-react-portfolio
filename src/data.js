@@ -25,15 +25,6 @@ const data = [
       "Shopity is helpful shopping assistant that allows users to login and create a list of pantry items, which can then moved onto a shopping list and then into a virtual cart. Shopity was created with the Pug template engine, an SQL database with the sequelize.js ORM, and express",
   },
   {
-    id: "book-safe",
-    image: BookSafe,
-    link: "https://book-safe-react.herokuapp.com/",
-    title: "Book Safe",
-    repo: "https://github.com/caseydean8/book-safe",
-    text:
-      "Book Safe is an full stack MERN application that allows the user to search for a book title and receive information, including the books author or authors, a thumbnail of the book cover, and a link to the book on google books. The user can then save the book information on a remote database for future reference, and delete the book from that database if desired.\n \n The application utilizes the following technologies: \n React \n Node \n Express \n MongoDB \n Heroku \n axios \n bootstrap",
-  },
-  {
     id: "graphql-mgmt",
     image: ProMgmt,
     link: "https://graphql-mgmt.herokuapp.com/",
@@ -41,6 +32,15 @@ const data = [
     repo: "https://github.com/caseydean8/GraphQL-MGMT-App",
     text:
       "GraphQL MGMT is a full stack application using the GraphQL query management system. It is built with React, Express, MongoDB, Apollo, and Bootstrap 5. Users can create, update, and delete clients as well as their related projects",
+  },
+  {
+    id: "book-safe",
+    image: BookSafe,
+    link: "https://book-safe-react.herokuapp.com/",
+    title: "Book Safe",
+    repo: "https://github.com/caseydean8/book-safe",
+    text:
+      "Book Safe is an full stack MERN application that allows the user to search for a book title and receive information, including the books author or authors, a thumbnail of the book cover, and a link to the book on google books. The user can then save the book information on a remote database for future reference, and delete the book from that database if desired.\n \n The application utilizes the following technologies: \n React \n Node \n Express \n MongoDB \n Heroku \n axios \n bootstrap",
   },
   {
     id: "crystal-vibes",
