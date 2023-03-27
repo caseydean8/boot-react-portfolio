@@ -24,6 +24,7 @@ nav a.nav-link {
   border-color: white;
 }
 
+/* Animated Hamburger */
 .navbar-toggler span {
   display: block;
   background-color: #212529;

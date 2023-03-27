@@ -2,7 +2,6 @@
   "name": "boot-react-portfolio",
   "homepage": "https://www.caseydeancarroll.com",
   "version": "0.1.0",
-  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@popperjs/core": "^2.11.0",

@@ -2,8 +2,8 @@ import Submarine from "./images-600x338/Submarine.webp";
 import ShoppingApp from "./images-600x338/shopity.webp";
 import BookSafe from "./images-600x338/book-safe.webp";
 import Crystal from "./images-600x338/crystal-vibes.webp";
-import Ahoy from "./images-600x338/react-ahoy.webp";
 import ProMgmt from "./images-600x338/projectMgmt.webp"
+import HonesdaleCC from "./images-600x338/honesdale-cc-portfolio.webp"
 
 const data = [
   {
@@ -23,6 +23,14 @@ const data = [
     repo: "https://github.com/caseydean8/shopity-app",
     text:
       "Shopity is helpful shopping assistant that allows users to login and create a list of pantry items, which can then moved onto a shopping list and then into a virtual cart. Shopity was created with the Pug template engine, an SQL database with the sequelize.js ORM, and express",
+  },
+  {
+    id: "honesdale-cc",
+    image: HonesdaleCC,
+    link: "https://honesdale-cc-next.vercel.app/",
+    title: "Honesdale Community Church",
+    repo: "https://github.com/caseydean8/honesdale-cc-next",
+    text: "This site is the built with Next.js and Hygraph. The Hygraph CMS to allow church admins to make updates to the events pages. Email.js is utilized for the contact form.",
   },
   {
     id: "graphql-mgmt",
@@ -50,14 +58,6 @@ const data = [
     repo: "https://github.com/caseydean8/crystal-vibes",
     text:
       "This project uses javascript and jQuery to render a number guessing game. \n A random number between 19 and 120 is displayed, and a random number between 1 and 12 is assigned to each of four crystal buttons but is not displayed. \n When a player clicks on a button, the value is added to a score below the buttons and if the player can match the random number displayed, a win is recorded. If the player goes over a loss is recorded. \n Button values are displayed in the console for testing.",
-  },
-  {
-    id: "react-ahoy",
-    image: Ahoy,
-    link: "https://caseydean8.github.io/ahoy/",
-    title: "React Ahoy!",
-    repo: "https://github.com/caseydean8/ahoy",
-    text: "React Ahoy is image memorization SPA. \n The game contains twelve ship images and the user is challenged to click them all without clicking the same ship twice.",
   },
   // {
   //   id: "",
