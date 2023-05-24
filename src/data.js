@@ -18,7 +18,7 @@ const data = [
   {
     id: "honesdale-cc",
     image: HonesdaleCC,
-    link: "https://honesdale-cc-next.vercel.app/",
+    link: "https://www.honesdalecc.org/",
     title: "Honesdale Community Church",
     repo: "https://github.com/caseydean8/honesdale-cc-next",
     text: "Website of the Honesdale Community Church that utilizes Hygraph's CMS to allow church admins to update the event page. Built with Next.js and Bootstrap.",
