@@ -4345,6 +4345,7 @@ __metadata:
     gh-pages: ^5.0.0
     react: ^18.1.0
     react-dom: ^18.1.0
+    react-icons: ^4.10.1
     react-router-dom: ^6.3.0
     react-scripts: 4.0.3
     react-typed: ^1.2.0
@@ -13457,6 +13458,15 @@ __metadata:
   version: 6.0.9
   resolution: "react-error-overlay@npm:6.0.9"
   checksum: 695853bc885e798008a00c10d8d94e5ac91626e8130802fea37345f9c037f41b80104345db2ee87f225feb4a4ef71b0df572b17c378a6d397b6815f6d4a84293
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.10.1":
+  version: 4.10.1
+  resolution: "react-icons@npm:4.10.1"
+  peerDependencies:
+    react: "*"
+  checksum: b6c8d4fe482b112e1041515d93ef7670a0af128855c926052a076b64d0b991cdd4391394b26467100f8da3859db1ebd8f9c6b7614fa5969fde83de45c71031a3
   languageName: node
   linkType: hard
 

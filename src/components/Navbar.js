@@ -15,15 +15,19 @@ const Navbar = () => {
   });
 
   const navigate = useNavigate();
+
   const activeStyle = {
     color: "#00b4e2",
   };
+
   const urls = [
     ["/", "home"],
     ["/about", "about"],
     ["/contact", "contact"],
   ];
+
   let routes = [];
+
   urls.forEach((route, index) => {
     isDesktop
       ? routes.push(
