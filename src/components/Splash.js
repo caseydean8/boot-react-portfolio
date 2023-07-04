@@ -7,7 +7,7 @@ const Splash = () => {
       <div className="mb-3">
         <Typed
           className="typed-text"
-          strings={["React", "Node", "Mongo", "MySQL", "Express", "jQuery"]}
+          strings={["React", "Node", "MongoDB", "SQL", "Express", "jQuery"]}
           typeSpeed={100}
           backSpeed={60}
           backDelay={2100}
