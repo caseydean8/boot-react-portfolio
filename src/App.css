@@ -57,9 +57,9 @@ button {
 }
 
 .contact-header {
+  text-align: center;
   color: var(--primary-blue);
   font-weight: 700;
-  font-size: 3.4rem;
 }
 
 .contact {

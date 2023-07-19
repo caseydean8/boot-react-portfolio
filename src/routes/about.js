@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div className='form-container container'>
-      <h1 className='contact-header'>about</h1>
+      <h2 className='contact-header'>about</h2>
       <p>
         I build dynamic user experiences and robust applications utilizing cutting edge technologies
         and frameworks as well as classic web architecture to bring software ideas to life. Solving

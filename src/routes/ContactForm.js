@@ -89,7 +89,7 @@ class ContactForm extends React.Component {
           </>
         ) : (
           <>
-            <h1 className='contact-header'>contact</h1>
+            <h2 className='contact-header'>contact</h2>
             <form onSubmit={this.handleSubmit.bind(this)}>
               <div className='mb-3'>
                 <input
@@ -122,9 +122,9 @@ class ContactForm extends React.Component {
                 <span className='error-msg'>{this.state.errors['message']}</span>
               </div>
 
-              <div className='d-grid -2 d-sm-block'>
+              <div className='d-grid d-sm-block'>
                 <button
-                  className='btn submit-button'
+                  className='btn submit-button float-end'
                   type='submit'
                   value='Send'
                   disabled={this.state.submitted}
