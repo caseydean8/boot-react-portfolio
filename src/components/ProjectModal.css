@@ -14,9 +14,16 @@
 
 .modal-header {
   padding-bottom: 0;
+  position: relative;
 }
 
 .modal-link {
   color: #00b4e2;
-  border-color:#00b4e2;
+  border-color: #00b4e2;
+}
+
+.btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
