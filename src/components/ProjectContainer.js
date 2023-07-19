@@ -1,11 +1,10 @@
-import React from "react";
-import Project from "./Project";
-import "./ProjectContainer.css";
-import data from "../data.js";
+import React from 'react';
+import Project from './Project';
+import data from '../data.js';
 
 const ProjectContainer = () => {
   return (
-    <div className="project-container row">
+    <div className='project-container row'>
       {data.map((item, index) => {
         return (
           <Project

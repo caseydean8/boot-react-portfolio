@@ -1,9 +1,11 @@
 :root {
   --primary-blue: #00b4e2;
 }
+
 .container {
   max-width: 1024px;
 }
+
 .container-fluid {
   font-family: 'Poppins', sans-serif;
   max-width: 100rem;
@@ -24,16 +26,38 @@
   padding-left: 1.875rem;
 }
 
+/* Project Container --------------------------- */
+.project-container {
+  max-width: 100rem;
+  background-color: gray;
+}
+
+/* Project Component --------------------------- */
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
 /* Contact Page -------------------------------- */
 .form-container {
   margin-top: 7.5rem;
-  margin-bottom: 7.5rem;
-  padding-bottom: 27vh;
   max-width: 35rem;
 }
 
+/* scroll room for form on mobile */
+@media (max-width: 480px) {
+  .mobile {
+    padding-bottom: 27vh;
+  }
+}
+
 .contact-header {
-  color:var(--primary-blue);
+  color: var(--primary-blue);
   font-weight: 700;
   font-size: 3.4rem;
 }
@@ -51,10 +75,15 @@ textarea.form-control {
 }
 
 .submit-button {
-  border-color:var(--primary-blue);
-  color:var(--primary-blue)
+  border-color: var(--primary-blue);
+  color: var(--primary-blue);
 }
 
 .error-msg {
   color: red;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding-right: 1rem;
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import Splash from "../components/Splash";
-import ProjectContainer from "../components/ProjectContainer";
+import React from 'react';
+import Splash from '../components/Splash';
+import ProjectContainer from '../components/ProjectContainer';
 
 const Home = () => {
   return (
